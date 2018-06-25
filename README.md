@@ -15,7 +15,6 @@ run it from your cron like this example (every 10 min on the N-59 min):
 `4-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN4 >> /opt/YOUREOSACCN4.log`
 
 `# remove sent lock once / day`
-
 `0 0 * * * /opt/eosremovesent.sh`
 
 
