@@ -6,7 +6,12 @@ set the error THRESHOLD to get notified for connection problems.
 
 run it from your cron like this example (every 10 min on the 3 rd min):
 
-`3-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCNT >> /opt/YOUREOSACCNT.log`
+`
+# 1-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCNT >> /opt/YOUREOSACCNT.log
+# 2-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN2 >> /opt/YOUREOSACCN2.log
+# 3-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN3 >> /opt/YOUREOSACCN3.log
+# 4-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN4 >> /opt/YOUREOSACCN4.log
+`
 
 script needs ONLY curl & jq installed no other APIs - tested on Ubuntu 18.04 
 
