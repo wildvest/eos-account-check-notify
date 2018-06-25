@@ -16,7 +16,7 @@
 # 3-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN3 >> /opt/YOUREOSACCN3.log
 # 4-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN4 >> /opt/YOUREOSACCN4.log
 #
-# script needs curl & jq installed - tested on Ubuntu 18.04 
+# script needs curl & jq installed - tested on Ubuntu 16.04 & 18.04 
 #
 #################################################################################
 
