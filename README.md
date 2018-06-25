@@ -15,6 +15,6 @@ run it from your cron like this example (every 10 min on the N-59 min):
 `4-59/10 * * * * /opt/eoscheckaccount.sh YOUREOSACCN4 >> /opt/YOUREOSACCN4.log`
 
 
-#### this bash script needs ONLY curl & jq installed (default) no other APIs - tested on Ubuntu 18.04 
+#### this bash script needs ONLY curl & jq installed (default) no other APIs - tested on Ubuntu 16.04 & 18.04 
 
 PS: the script is **not** checking for unstaked token balances (EOS, others)
