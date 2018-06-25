@@ -16,4 +16,4 @@ run it from your cron like this example (every 10 min on the N-59 min):
 
 tha bash script needs ONLY curl & jq installed (default) no other APIs - tested on Ubuntu 18.04 
 
-PS: the script is not checking for unstaked balances
+PS: the script is *not* checking for unstaked balances
