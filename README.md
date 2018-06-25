@@ -1,5 +1,5 @@
 # eos-account-check-notify
-checks your EOS account for changes (ram / staking / permissions) every X min. and notifies on changes
+## bash script to check your EOS account for changes (ram / staking / permissions) every X min. and notifies on changes
 
 get notified via the free pushover.net service (Android/IOS) if any changes happen. 
 set the error THRESHOLD to get notified for connection problems.
